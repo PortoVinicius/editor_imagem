@@ -5,8 +5,8 @@ class ImageProcessor:
         self.input_path = input_path
         self.image = Image.open(input_path)
 
-    def resize_to_512(self):
-        self.image = self.image.resize((512, 512), Image.LANCZOS)
+    def resize_to_192(self):
+        self.image = self.image.resize((192, 192), Image.LANCZOS)
         return self
 
     def save_png(self, output_path):

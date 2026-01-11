@@ -20,4 +20,9 @@ venv\Scripts\activate          # Windows
 2️⃣ Instale as dependências:
 ```bash
 pip install -r requirements.txt
-```# editor_imagem
+```
+3. Como usar 
+```bash
+python main.py
+image.png
+```
